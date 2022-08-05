@@ -8,8 +8,8 @@ class Tweets:
     
     def Tweets(self):
         auth = tweepy.OAuth1UserHandler(
-            "0eGislkaNpJqFztMmZDAyeYLj", "vfgSmxZziPrsL8SuR9DYMCjcvMVQsyBD8QZSDjxCXJn2hKS29t",
-            "1549149160745861121-Wqupp5r6rWxJV1kOdlMMLBxU5MwS9a", "DjensIQDjQCR3gPiWjcvCMOiuYWNTbxasiconA7jszMt5"
+            "api_key", "api_key_secret",
+            "access_token", "access_token_secret"
         )
         #api v1.1 ka client
         client = tweepy.API(auth)
