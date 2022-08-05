@@ -26,7 +26,7 @@ class Tweets:
     userid=Finduserid(username)
     print (userid)
     #api v2 client
-    clientv2=tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAGgHfgEAAAAAmqmnGVQ7qXQaDuui3jEQeFaMJm8%3DxSDZb1rVC9ALBxu06Ti2xgaYkAhrnfdVmWGdjZtw3Puy8yz39E')
+    clientv2=tweepy.Client(bearer_token='bearer_token')
     try:
         #tweets=clientv2.get_users_tweets(id=f'{userid}',place_fields={'country' :'Taiwan'})
         index=1
