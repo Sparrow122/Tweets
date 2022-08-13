@@ -1,2 +1,2 @@
-# NewsTweets
+Tweepy Tweets
 Tweets Retrieving App
